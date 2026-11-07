@@ -6,42 +6,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Tracker</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
-<body>
+<body class="bg-white text-black p-4">
 
     <main>
 
-        <header>
-            <h1>FitTrack</h1>
-            <p>Your daily fitness dashboard</p>
+        <header class="bg-blue-950 p-4 mb-4 rounded-2xl text-white flex justify-between">
+            <div>
+                <h1 class="text-xl font-bold">FitTrack</h1>
+                <p class="test-xs">Your daily fitness dashboard</p>
+            </div>
+            <img src="assets/user_icon.png" class="w-6 h-6">
         </header>
 
         <section>
-            <h3>Good morning!</h3>
-            <p>Here's your activity for today.</p>
+            <h3 class="text-l font-bold" >Good morning!</h3>
+            <p class="text-xs mb-6 text-gray-700">Here's your activity for today.</p>
         </section>
 
-        <section>
+        <section class="grid grid-cols-3 gap-4 mb-6 flex justify-center items-center">
 
-            <div>
-                <p>Steps</p>
-                <p>4,500</p>
-                <p>Daily step count</p>
+            <div >
+                <img src="assets/footstep.png" class="w-6 h-6">
+                <p class="text-xs text-neutral-500">Steps</p>
+                <p class="text-l">4,500</p>
+                <p class="text-xs text-neutral-500">Daily step count</p>
             </div>
                 
             <div>
-                <p>Calories</p>
-                <p>158</p>
-                <p>Estimated calories</p>
+                <img src="assets/calories_icon.png" class="w-6 h-6">
+                <p class="text-xs text-neutral-500">Calories</p>
+                <p class="text-l">158</p>
+                <p class="text-xs text-neutral-500">Estimated calories</p>
             </div>
 
             <div>
-                <p>Active minutes</p>
-                <p>25</p>
-                <p>Minutes active today</p>                
+                <img src="assets/active_icon.png" class="w-6 h-6">
+                <p class="text-xs text-neutral-500">Active minutes</p>
+                <p class="text-l">25</p>
+                <p class="text-xs text-neutral-500">Minutes active today</p>                
             </div>
 
         </section>
