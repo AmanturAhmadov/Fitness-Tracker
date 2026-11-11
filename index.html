@@ -27,41 +27,54 @@
             <p class="text-xs mb-6 text-gray-700">Here's your activity for today.</p>
         </section>
 
-        <section class="grid grid-cols-3 gap-4 mb-6 flex justify-center items-center">
+        <section class="grid grid-cols-3 gap-4 mb-6 ml-40 flex justify-center items-center">
 
             <div >
                 <img src="assets/footstep.png" class="w-6 h-6">
-                <p class="text-xs text-neutral-500">Steps</p>
+                <p class="text-xs text-gray-500">Steps</p>
                 <p class="text-l">4,500</p>
-                <p class="text-xs text-neutral-500">Daily step count</p>
+                <p class="text-xs text-gray-500">of 8,000</p>
             </div>
                 
             <div>
                 <img src="assets/calories_icon.png" class="w-6 h-6">
-                <p class="text-xs text-neutral-500">Calories</p>
+                <p class="text-xs text-gray-500">Calories</p>
                 <p class="text-l">158</p>
-                <p class="text-xs text-neutral-500">Estimated calories</p>
+                <p class="text-xs text-gray-500">estimated</p>
             </div>
 
             <div>
                 <img src="assets/active_icon.png" class="w-6 h-6">
-                <p class="text-xs text-neutral-500">Active minutes</p>
+                <p class="text-xs text-gray-500">Active</p>
                 <p class="text-l">25</p>
-                <p class="text-xs text-neutral-500">Minutes active today</p>                
+                <p class="text-xs text-gray-500">minutes today</p>                
             </div>
 
         </section>
 
-        <section>
+        <section class="border border-gray-300 rounded-md p-4">
 
-            <div>
-                <h2>Daily step goal</h2>
-                <span>52%</span>
-                <p>Goal: 8,000 steps</p>
+            <div class="flex justify-between">
+                <h2 class="font-bold text-l">Daily step goal</h2>
+                <span class="text-gray-500 text-xs">56% complete</span>
+            </div>
 
-                <div>
-                    <button>Add 500 steps</button>
-                    <button>Edit Goal</button>
+
+            <div class="bg-gray-100 w-full h-2 rounded-full mt-2 mb-2">
+                <div class="bg-blue-500 w-3/5 h-2 rounded-full mt-2 mb-2"></div>
+            </div>
+
+                <p class="text-gray-500 text-xs mb-4">Goal: 8,000 steps</p>
+
+            <div class="flex justify-between">
+                <div class="ml-64">
+                    <p class="ml-8">+</p>
+                    <button>Add steps</button>
+                </div>
+                
+                <div class="mr-64">
+                    <p class="ml-7">!</p>
+                    <button>Edit goal</button>
                 </div>
             </div>
 
