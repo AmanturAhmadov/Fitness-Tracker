@@ -19,7 +19,11 @@
                 <h1 class="text-xl font-bold">FitTrack</h1>
                 <p class="test-xs">Your daily fitness dashboard</p>
             </div>
-            <img src="assets/user_icon.png" class="w-6 h-6">
+
+            <a href="profile.html">
+                <img src="assets/user_icon.png" class="w-6 h-6">
+            </a>
+
         </header>
 
         <section>
@@ -27,9 +31,9 @@
             <p class="text-xs mb-6 text-gray-700">Here's your activity for today.</p>
         </section>
 
-        <section class="grid grid-cols-3 gap-4 mb-6 ml-40 flex justify-center items-center">
+        <section class="grid grid-cols-3 gap-4 mb-6 ml-64 flex justify-center items-center">
 
-            <div >
+            <div>
                 <img src="assets/footstep.png" class="w-6 h-6">
                 <p class="text-xs text-gray-500">Steps</p>
                 <p class="text-l">4,500</p>
@@ -80,9 +84,10 @@
 
         </section>
 
-        <section>
+        <section class="border border-gray-300 rounded-md p-4 mt-4">
 
-            <h2>Daily habits</h2>
+            <h2 class="font-bold text-l mb-1">Daily habits</h2>
+            <p class="text-gray-500 text-xs mb-4">Check off your completed activities.</p>
 
             <div>
 
@@ -91,21 +96,25 @@
                     <span>Drink water</span>
                 </label>
 
+                <hr class="my-4">
+                
                 <label>
                     <input type="checkbox">
                     <span>Take a walk</span>
                 </label>
-
+                
+                <hr class="my-4">
+                
                 <label>
                     <input type="checkbox">
                     <span>Stretch for 5 minutes</span>
                 </label>
 
+                <hr class="my-4">
+
             </div>
 
-            <p>Completed: 0 of 3</p>
-
-            <button>Reset tracker</button>
+            <p class="text-gray-500 text-xs mb-2 mt-4">Completed: 0 of 3</p>
 
         </section>
 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <main class="pr-10">
+
+        <header>
+
+            <a href="index.html">
+                <p class="text-gray-500 text-xs mt-4 ml-4 border border-gray-300 rounded-md w-10 h-6 p-1">Back</p>
+            </a>
+
+            <div class="flex flex-col items-center">
+
+                <img src="assets/circle_user.png" class="w-24 h-24 opacity-75">
+
+                <h1 class="font-bold text-xl m-2">Your Profile</h1>
+                <p class="text-gray-500 text-x-s mb-2">Manage your personal information</p>
+
+            </div>
+
+        </header>
+
+        <hr class="my-3 w-5/6 mx-auto">
+
+        <section class="ml-10">
+
+            <h1 class="font-medium text-lg mb-4">Personal information</h1>
+
+            <p class="text-gray-500 text-xs mb-1">Full name</p>
+            <input class="border border-gray-300 rounded-lg w-full h-8 p-1 text-xs" type="text" placeholder="Enter your name">
+
+            <p class="text-gray-500 text-xs mb-1 mt-3">Email address</p>
+            <input class="border border-gray-300 rounded-lg w-full h-8 p-1 text-xs" type="text" placeholder="Enter your email">
+
+            <div class="flex w-full">
+
+                <div class="mr-4 w-full">
+                    <p class="text-gray-500 text-xs mb-1 mt-3">Age</p>
+                    <input class="border border-gray-300 rounded-lg w-full h-8 p-1 text-xs" type="text" placeholder="e.g 25">
+                </div>
+
+                <div class="w-full">
+                    <p class="text-gray-500 text-xs mb-1 mt-3">Height</p>
+                    <input class="border border-gray-300 rounded-lg w-full h-8 p-1 text-xs" type="text" placeholder="e.g. 175 cm">
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr class="my-5 w-5/6 mx-auto">
+
+        <section class="ml-10">
+
+            <h1 class="font-medium text-lg mb-4"> Fitness goals</h1>
+
+            <p class="text-gray-500 text-xs mb-1">Daily step goal</p>
+            <input class="border border-gray-300 rounded-lg w-full h-8 p-1 text-xs" type="text" placeholder="e.g. 8,000 steps">
+
+            <p class="text-gray-500 text-xs mb-1 mt-3">Preferred activity</p>
+            <input class="border border-gray-300 rounded-lg w-full h-8 p-1 text-xs" type="text" placeholder="e.g. Walking, Yoga">
+
+        </section>
+
+        <div class="flex flex-col items-center">
+            <button class="text-gray-700 my-4">Save Profile</button>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
